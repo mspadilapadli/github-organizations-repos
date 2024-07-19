@@ -22,7 +22,7 @@ export default function Commits({ params }) {
                     `/repos/${login_name}/${repo_name}/commits`,
                 headers: {
                     "X-GitHub-Api-Version": "2022-11-28",
-                    Authorization: `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`,
+                    Authorization: `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`,
                 },
             });
 

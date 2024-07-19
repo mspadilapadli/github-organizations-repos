@@ -18,7 +18,7 @@ export default function ListOrder() {
                 url: "https://api.github.com/organizations",
                 headers: {
                     "X-GitHub-Api-Version": "2022-11-28",
-                    Authorization: `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`,
+                    Authorization: `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`,
                 },
             });
 

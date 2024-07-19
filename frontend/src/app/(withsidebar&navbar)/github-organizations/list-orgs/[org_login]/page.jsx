@@ -18,7 +18,7 @@ export default function OrgRepositories({ params }) {
                 url: "https://api.github.com" + `/orgs/${login_name}`,
                 headers: {
                     "X-GitHub-Api-Version": "2022-11-28",
-                    Authorization: `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`,
+                    Authorization: `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`,
                 },
             });
 
@@ -36,7 +36,7 @@ export default function OrgRepositories({ params }) {
                 url: "https://api.github.com" + `/orgs/${login_name}/repos`,
                 headers: {
                     "X-GitHub-Api-Version": "2022-11-28",
-                    Authorization: `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`,
+                    Authorization: `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`,
                 },
             });
 
